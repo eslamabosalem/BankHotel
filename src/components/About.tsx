@@ -90,7 +90,7 @@ const About = () => {
           </h1>
           <p className="right2 font-poppins text-sm xl:leading-6  lg:text-xs text-textWhite mt-6 opacity-80 w-[290px] md:mx-auto md:text-center lg:text-start">
             The hotel was reopened to visitors in 2016. The building was
-            renovated and modernized to meet the expectations of the most
+            renovated and modernized to meet the expectations of the mostt
             demanding guests. We offer luxurious rooms, numerous facilities, and
             exceptional service. The hotel is located near the city center,
             which makes it the best option for those who travel for business and
