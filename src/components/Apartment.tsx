@@ -37,14 +37,14 @@ const Apartment = () => {
     return () => ctx.revert();
   }, []);
   return (
-    <section ref={container}  className="box relative h-[890px] lg:h-[650px] xl:h-[750px] bg-no-repeat bg-cover  " style={{ backgroundImage: `url(${space2})` }}>
+    <section ref={container}  className="box relative h-[890px] lg:h-[650px] xl:h-[750px] bg-no-repeat bg-cover image " style={{ backgroundImage: `url(${space2})` }}>
    
      <div className=" pt-12 pl-2">
       <h1 className='right2 font-miracle uppercase text-6xl lg:text-8xl lg:px-3 leading-[60px] text-yellow-500 xl:mt-16'>Best<br />
       apartments</h1>
      </div>
      <div className=" w-full absolute bottom-[260px]  lg:bottom-16 xl:bottom-10 right-1">
-      <img src={victor} alt=" " className='bottom1 w-full' />
+      <img src={victor} alt=" " className='bottom1 w-full image' />
      </div>
     
     

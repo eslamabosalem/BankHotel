@@ -64,7 +64,7 @@ const GetInTouch = () => {
           <h1 className="right2 font-miracle uppercase   text-[84px] lg:text-[150px] xl:text-[190px] xl:pl-10 leading-10 ">
             Get in
           </h1>
-          <img src={icon} alt="" className=" w-9 h-9 lg:w-16 lg:h-16" />
+          <img src={icon} alt="" className=" w-9 h-9 lg:w-16 lg:h-16 image" />
         </div>
         <h1 className="left2 z-10 relative md:text-center lg:text-end mt-12 xl:mb-20 lg:mt-32 xl:pr-12 xl:text-[190px] text-secondary font-miracle uppercase  text-[84px]  lg:text-[150px] leading-10 text-end">
           Touch
@@ -73,7 +73,7 @@ const GetInTouch = () => {
           <img
             src={jean}
             alt=""
-            className="bottom1 absolute  w-full h-full object-cover "
+            className="bottom1 absolute  w-full h-full object-cover image "
           />
         </div>
         <div className="md:hidden -mt-9 ">
@@ -97,11 +97,11 @@ const GetInTouch = () => {
             </h1>
             <img src={arrow} alt="" />
           </div>
-          <div className=" flex justify-center items-center gap-5  w-[202px] h-full">
+          <div className=" flex justify-center items-center gap-5  w-[202px] h-full image">
             <h1 className=" text-sm leading-5 font-poppins font-medium">
               Check in
             </h1>
-            <img src={arrow} alt="" />
+            <img src={arrow} alt=""  />
           </div>
           <div className="  flex justify-center items-center text-textWhite bg-primary  w-[202px] h-full">
             <h1 className="bottom1 font-medium font-poppins text-base leading-5 ">

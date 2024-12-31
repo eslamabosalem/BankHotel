@@ -70,13 +70,13 @@ const Rooms = () => {
 
       <div className="  relative lg:flex lg:flex-row-reverse">
         <div className="bottom1 md:h-[400px] lg:w-[456px] lg:h-[460px] xl:h-[520px]">
-          <img src={bed} alt=""  className=" w-full h-full object-cover md:object-contain lg:object-cover"/>
+          <img src={bed} alt=""  className=" w-full h-full object-cover md:object-contain lg:object-cover image"/>
         </div>
         
         <div className=" mt-10 xl:mt-52 lg:w-full">
         <div className="relative hidden xl:block   ">
           <div className="bottom1 w-56 h-64 absolute -top-40">
-            <img src={space} alt=""  className=" w-full h-full object-cover"/>
+            <img src={space} alt=""  className=" w-full h-full object-cover image"/>
           </div>
           
         </div>

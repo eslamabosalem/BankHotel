@@ -60,17 +60,17 @@ const About = () => {
       <img
         src={Vector}
         alt=""
-        className="right1 absolute right-0 -top-16 md:w-[490px] lg:w-[630px] xl:w-[739px]"
+        className="right1 image  absolute right-0 -top-16 md:w-[490px] lg:w-[630px] xl:w-[739px]"
       />
       <img
         src={Vector2}
         alt=""
-        className="top1 absolute -top-16 md:w-[520px] lg:w-[752px] lg:h-[378px] xl:w-[1078px]"
+        className="top1 image absolute -top-16 md:w-[520px] lg:w-[752px] lg:h-[378px] xl:w-[1078px]"
       />
       <img
         src={Vector3}
         alt=""
-        className="right2 absolute  right-[108px] md:right-[240px] md:h-[630px] lg:right-[259px] xl:right-[334px] lg:h-[830px] -top-16 "
+        className="right2 absolute image  right-[108px] md:right-[240px] md:h-[630px] lg:right-[259px] xl:right-[334px] lg:h-[830px] -top-16 "
       />
 
       <div className=" lg:flex lg:gap-32 ">
@@ -81,7 +81,7 @@ const About = () => {
             <h1 className=" ml-[120px] lg:text-textWhite lg:text-end">US</h1>
           </h1>
           <div className="left1 mt-16  h-[355px] md:px-1 md:h-[430px] lg:h-[530px] lg:w-[357px] lg:mx-0 lg:mr-auto mx-auto  relative z-10">
-            <img src={space1} alt="" className=" w-full h-full object-cover md:object-contain " />
+            <img src={space1} alt="" className=" image w-full h-full object-cover md:object-contain " />
           </div>
         </div>
         <div className=" mt-16 lg:self-end	">
@@ -101,7 +101,7 @@ const About = () => {
 
       <div className=" hidden lg:block">
         <div className="right2 w-40 h-52 md:px-4 md:h-64 absolute right-0 top-0 mt-[4.5rem] pr-2">
-         <img src={space2} alt=""  className="    "/>
+         <img src={space2} alt=""  className=" image   "/>
 
         </div>
       </div>

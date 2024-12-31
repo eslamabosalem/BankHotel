@@ -67,7 +67,7 @@ const Hero = () => {
           <img
             src={room}
             alt="Spacious Copenhagen room"
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full image"
             loading="lazy"
           />
         </div>
